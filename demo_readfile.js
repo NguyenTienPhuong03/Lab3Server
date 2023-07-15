@@ -7,7 +7,7 @@ http.createServer(function(req, res){
         res.write(data);
         return res.end()
     })
-    fs.writeFile('thongtin.txt', 'Nguyễn Tiến Phương, Ph22846, phuongntph22846@fpt.edu.vn, 0984937062', function(err){
+    fs.writeFile('mssv.txt', 'Nguyễn Tiến Phương, Ph22846, phuongntph22846@fpt.edu.vn, 0984937062', function(err){
         if(err){
             console.log(err);
         }else{
